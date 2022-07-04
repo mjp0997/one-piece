@@ -75,3 +75,16 @@ s {
 .list > li {
    list-style: inherit!important;
 }
+
+
+
+/* Sidebar */
+
+.sidebar-nav {
+   position: sticky;
+   top: 64px;
+}
+
+.sidebar-nav a:hover {
+   text-decoration: underline!important;
+}
