@@ -85,6 +85,10 @@ s {
    top: 64px;
 }
 
-.sidebar-nav a:hover {
+.sidebar-nav a:not(.selected):hover {
    text-decoration: underline!important;
+}
+
+.sidebar-nav .selected {
+   font-weight: 500;
 }
