@@ -1,0 +1,77 @@
+
+/* Images */
+
+.img-container {
+   display: flex;
+}
+
+.img-logo {
+   display: flex!important;
+   align-items: center;
+   width: 50px;
+   height: 100%;
+}
+
+.img-container > img,
+.img-logo > img {
+   width: 100%;
+}
+
+
+
+
+/* Section */
+
+.parallax {
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+
+   background-color: rgba(0, 0, 0, 0.7);
+   backdrop-filter: blur(1rem);
+   background-blend-mode: color-dodge;
+}
+
+.bg-img-1 {
+   background-image: url('../images/background.png');
+}
+
+.body-section {
+   min-height: calc(100vh - 64px)!important;
+}
+
+.main-section {
+   padding: 10px;
+}
+
+.main-section:not(:first-child) {
+   margin-top: 20px;
+}
+
+
+
+/* Text */
+
+.justified {
+   text-align: justify;
+   text-justify: inter-word;
+}
+
+s {
+   text-decoration: underline!important;
+}
+
+
+
+/* Lists */
+
+.list {
+   list-style: circle!important;
+
+   padding-left: 22px!important;
+}
+
+.list > li {
+   list-style: inherit!important;
+}
